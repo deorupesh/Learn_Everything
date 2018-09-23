@@ -1,0 +1,4 @@
+*/node_modules/
+*.gitignore
+*.xml
+README.md
