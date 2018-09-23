@@ -14,7 +14,23 @@ git add .
 
 This removes all files from the repository and adds them back (this time respecting the rules in your .gitignore).
 
+
 2 ==>
+
+Open code in Visual Code using Open Folder option in Menu.
+
+3. ==>
 
 Angular UI port 7001 from package.json file
 
+3 ==>
+
+Open terminal in Visual Code using View-->Terminal
+
+4 ==>
+
+Start the app using command "npm start"
+
+5 ==>
+
+Open "http://localhost:7001/" to navigate to app.
