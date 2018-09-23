@@ -16,3 +16,5 @@ This removes all files from the repository and adds them back (this time respect
 
 2 ==>
 
+Angular UI port 7001 from package.json file
+
