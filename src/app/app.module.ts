@@ -12,11 +12,12 @@ import { HadoopComponentComponent } from './hadoop-component/hadoop-component.co
 import { JavascriptComponentComponent } from './javascript-component/javascript-component.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import {SafePipe} from './safe.component'
 
 
 const appRoutes: Routes = [
   {
-    path: 'java', component: JavaComponentComponent, data: { title: 'Java' }
+    path: '', component: JavaComponentComponent, data: { title: 'Java' }
   },
   {
     path: 'javascript', component: JavascriptComponentComponent, data: { title: 'JavaScript' }
@@ -31,7 +32,7 @@ const appRoutes: Routes = [
     path: 'springboot', component: SpringBootComponentComponent, data: { title: 'Spring Boot' }
   },
   {
-    path: '', redirectTo: '/java', pathMatch: 'full'
+    path: '', redirectTo: '', pathMatch: 'full'
   },
   // {
   //   path: '**', component: PageNotFoundComponent
@@ -48,7 +49,8 @@ const appRoutes: Routes = [
     InterviewComponentComponent,
     DatabaseComponentComponent,
     HadoopComponentComponent,
-    JavascriptComponentComponent
+    JavascriptComponentComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule, FormsModule,
